@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background: rgb(4, 4, 26);
+    color: whitesmoke;
+    padding: 5px;
+}
+.navbar{
+    display: flex;
+}
+.head-name{
+    color: blue;
+    padding-top: 2px;
+    padding-left: 5px;
+}
+.head-name strong{
+    color: red;
+}
+.user-div{
+    padding-left: 75%;
+}
+.sign{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.carty{
+    margin: 7px;
+}
+.fas{
+    color: whitesmoke;
+}
+.srch-div{
+    padding-top: 5px;
+    text-align: center;
+}
+.input-srch{
+    width: 50%;
+    height: 22px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.send-srch{
+    width: 11%;
+    height: 22px;
+    color: blue;
+    border: none;
+    border-radius: 5px
+}
+.brands-sec{
+    padding-top: 9px;
+    padding-bottom: 0;
+}
+.item-logos{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.item-logos a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+li{
+    margin: 15px;
+    margin-left: 0;
+    margin-top: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+li:hover{
+    color: orangered;
+}
+.descri-div{
+    background: rgba(13, 13, 46, 0.877);
+    
+}
+.dsc-p{
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: 600;
+    padding: 7px;
+}
+.ship-div{
+    height: 200px;
+    width: 100%;
+    background: rgb(142, 178, 243);
+    background-image: url(images/bow-huge-container-shipcornelia-maersk-anchored-roads-nakhodka-bay-east-japan-sea-far-russia-59691394.jpg);
+    object-fit: contain;
+    background-position: left;
+    
+}
+.ship-dsc{
+    background:rgba(13, 13, 46, 0.877) ;
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: arial;
+    font-weight: 600;
+    padding: 7px;
+}
+.advert-cnt{
+    display: flex;
+    margin: 5px;
+    overflow-x: scroll;
+    justify-content: center;
+}
+.advt-div{
+    background: white;
+    width: 170px;
+    height: 210px;
+    border-radius: 10px;
+    margin: 5px;
+    border: 1px solid black;
+}
+.mds{
+    color: blue;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-bottom: 1px solid black;
+    font-family: arial;
+}
+.imgs{
+    width: 170px;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid black;
+}
+#checks{
+    padding-left: 5px;
+    font-size: 12px;
+    color: blue;
+    text-decoration: navy;
+    font-family: times;
+}
+.order-cnt{
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 15px;
+    color: blue;
+    font-family: arial;
+    text-align: left;
+    height: 100px;
+    justify-content: center;
+    border-top: 2px solid rgb(214, 208, 208);
+    border-bottom: 2px solid rgb(214, 208, 208);
+}
+.order-div{
+    text-align: center;
+    margin: 10px;
+}
+.order-btn{
+    width: 150px;
+    height: 27px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    font-weight: bold;
+    border: 2px solid blue;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.order-btn:hover{
+    background: blue;
+    color: whitesmoke;
+}
+#partner-acc{
+    color: blue;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif
+}
+#partner-acc:hover{
+    color: orangered;
+}
+.popular-div{
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 15px;
+    color: blue;
+    font-family: arial;
+    text-align: left;
+    height: 100%;
+    justify-content: center;
+    
+}
+.popular-model{
+    display: flex;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.imgs-md{
+    width: 150px;
+    height: 130px;
+    object-fit: cover;
+}
+#span-mds{
+    padding-top: 21px;
+    padding-left: 15px;
+}
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background: black;
+    color: whitesmoke;
+}
+.footer-items{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.footer-items a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 5px;
+    padding-top: 5px;
+}
+.media-link{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.media-link a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 10px;
+    padding-bottom: 7px;
+}
+.fab{
+    color: blue;
+}
+.fa-whatsapp{
+    color: green;
+}
+.fa-twitter{
+    color: turquoise;
+}
+.fa-instagram{
+    color: rebeccapurple;
+}
+@media (max-width:500px){
+    nav{
+        background: rgb(4, 4, 26);
+        color: whitesmoke;
+        padding: 5px;
+    }
+    .navbar{
+        display: flex;
+    }
+    .head-name{
+        color: blue;
+        padding-top: 2px;
+        padding-left: 0;
+    }
+    .head-name strong{
+        color: red;
+    }
+    .user-div{
+        padding-left: 20%;
+    }
+    .sign{
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .carty{
+        margin: 7px;
+    }
+    .fas{
+        color: whitesmoke;
+    }
+    .srch-div{
+        padding-top: 5px;
+        text-align: left;
+    }
+    .input-srch{
+        width: 70%;
+        height: 22px;
+        border: none;
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+    .send-srch{
+        width: 18%;
+        height: 22px;
+        color: blue;
+        border: none;
+        border-radius: 5px
+    }
+    .brands-sec{
+        padding-top: 9px;
+        padding-bottom: 0;
+    }
+    .item-logos{
+        width: 100%;
+        display: flex;
+        list-style: none;
+        overflow-x: scroll;
+        justify-content: left;
+    }
+    .item-logos a{
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    li{
+        margin: 14px;
+        margin-left: 0;
+        margin-top: 0;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 11px;
+    }
+    .descri-div{
+        background: rgba(13, 13, 46, 0.877);
+        
+    }
+    .dsc-p{
+        color: whitesmoke;
+        font-size: 13px;
+        font-family: arial;
+        font-weight: 600;
+        padding: 7px;
+    }
+    .ship-div{
+        height: 100px;
+        width: 100%;
+        background-image: url(images/bow-huge-container-shipcornelia-maersk-anchored-roads-nakhodka-bay-east-japan-sea-far-russia-59691394.jpg);
+        object-fit: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .ship-dsc{
+        background:rgba(13, 13, 46, 0.877) ;
+        color: whitesmoke;
+        font-size: 12px;
+        font-family: arial;
+        font-weight: 600;
+        padding: 7px;
+    }
+    .advert-cnt{
+        display: flex;
+        margin: 5px;
+        overflow-x: scroll;
+        justify-content: left;
+    }
+    .advt-div{
+        background: white;
+        width: 140px;
+        height: 190px;
+        border-radius: 10px;
+        margin: 5px;
+        border: 1px solid black;
+    }
+    .mds{
+        color: blue;
+        font-size: 13px;
+        padding-left: 10px;
+        padding-top: 5px;
+        border-bottom: 1px solid black;
+        font-family: arial;
+    }
+    .imgs{
+        width: 140px;
+        height: 130px;
+        object-fit: cover;
+        border-bottom: 1px solid black;
+    }
+    #checks{
+        padding-left: 5px;
+        font-size: 12px;
+        color: blue;
+        text-decoration: navy;
+        font-family: times;
+    }
+    .popular-model{
+        display: flex;
+        padding-top: 5px;
+        padding-left: 0;
+    }
+  
+    .media-link{
+        width: 100%;
+        display: flex;
+        list-style: none;
+        justify-content: left;
+        padding-left: 12px;
+    }
+}
