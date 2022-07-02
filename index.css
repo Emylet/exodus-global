@@ -89,10 +89,11 @@ li:hover{
 .ship-div{
     height: 200px;
     width: 100%;
-    background: rgb(142, 178, 243);
-    background-image: url(images/bow-huge-container-shipcornelia-maersk-anchored-roads-nakhodka-bay-east-japan-sea-far-russia-59691394.jpg);
-    object-fit: contain;
+    background-size: 50%;
+    background-image: url(back-g/img-4.jpg);
+    object-fit: cover;
     background-position: left;
+    background-repeat: calc(3);
     
 }
 .ship-dsc{
@@ -171,8 +172,9 @@ li:hover{
 #partner-acc{
     color: blue;
     text-decoration: none;
-    font-size: 14px;
-    font-family: 'Times New Roman', Times, serif
+    font-size: 11px;
+    font-family:sans-serif;
+    font-weight: bold;
 }
 #partner-acc:hover{
     color: orangered;
@@ -203,7 +205,6 @@ li:hover{
     padding-left: 15px;
 }
 footer{
-    position: fixed;
     width: 100%;
     bottom: 0;
     background: black;
@@ -234,16 +235,16 @@ footer{
     padding-bottom: 7px;
 }
 .fab{
-    color: blue;
+    color: rgb(39, 39, 226);
 }
 .fa-whatsapp{
-    color: green;
+    color: rgb(8, 248, 8);
 }
 .fa-twitter{
-    color: turquoise;
+    color: rgb(23, 235, 213);
 }
 .fa-instagram{
-    color: rebeccapurple;
+    color: rgb(166, 97, 235);
 }
 @media (max-width:500px){
     nav{
@@ -263,7 +264,7 @@ footer{
         color: red;
     }
     .user-div{
-        padding-left: 20%;
+        padding-left: 25%;
     }
     .sign{
         font-family: sans-serif;
@@ -329,10 +330,9 @@ footer{
         padding: 7px;
     }
     .ship-div{
-        height: 100px;
-        width: 100%;
-        background-image: url(images/bow-huge-container-shipcornelia-maersk-anchored-roads-nakhodka-bay-east-japan-sea-far-russia-59691394.jpg);
+        background-image: url(back-g/img-1.jpg);
         object-fit: cover;
+        background-size: 100%;
         background-position: center;
         background-repeat: no-repeat;
     }
