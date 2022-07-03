@@ -36,10 +36,11 @@ nav{
     padding-top: 5px;
     text-align: center;
 }
-.input-srch{
+#input-srch{
     width: 50%;
     height: 22px;
     border: none;
+    color:  darkblue;
     border-radius: 5px;
     padding-left: 10px;
 }
@@ -89,12 +90,33 @@ li:hover{
 .ship-div{
     height: 200px;
     width: 100%;
+    background: rgba(13, 13, 46, 0.877);
     background-size: 50%;
     background-image: url(back-g/img-4.jpg);
     object-fit: cover;
     background-position: left;
-    background-repeat: calc(3);
     
+}
+
+#result-div{
+    display: none;
+    padding-top: 13px;
+    text-align: center;
+    background: darkblue;
+    height: 70px;
+    color: whitesmoke;
+    font-family: arial;
+}
+#result-div strong  {
+    color: rgb(111, 245, 231);
+}
+#result-div a {
+    color: yellow;
+    font-weight: bold;
+
+}
+#result-div  a:hover{
+    color: whitesmoke;
 }
 .ship-dsc{
     background:rgba(13, 13, 46, 0.877) ;
@@ -117,19 +139,16 @@ li:hover{
     border-radius: 10px;
     margin: 5px;
     border: 1px solid black;
-}
-.mds{
     color: blue;
-    font-size: 13px;
-    padding-left: 10px;
     padding-top: 5px;
-    border-bottom: 1px solid black;
-    font-family: arial;
+    text-align: center;
 }
+
 .imgs{
     width: 170px;
     height: 150px;
     object-fit: cover;
+    border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
 #checks{
@@ -264,7 +283,7 @@ footer{
         color: red;
     }
     .user-div{
-        padding-left: 25%;
+        padding-left: 22%;
     }
     .sign{
         font-family: sans-serif;
@@ -281,7 +300,7 @@ footer{
         padding-top: 5px;
         text-align: left;
     }
-    .input-srch{
+    #input-srch{
         width: 70%;
         height: 22px;
         border: none;
@@ -350,13 +369,15 @@ footer{
         overflow-x: scroll;
         justify-content: left;
     }
-    .advt-div{
+    #advt-div{
         background: white;
         width: 140px;
         height: 190px;
         border-radius: 10px;
         margin: 5px;
         border: 1px solid black;
+        color: blue;
+        text-align: center;
     }
     .mds{
         color: blue;
