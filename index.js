@@ -30,10 +30,10 @@ function srchEl() {
             adverImg.style.display = "none"
             resultDiv.style.display = "block"
             resultDiv.innerHTML =inputSrch.toUpperCase() + "<strong>  is Aviliable</strong>" + "<br><br>"+"<a href='#'>click to view vehicle</a>"
-        } else{
-            adverImg.style.display = "none"
+        }
+        else{
             resultDiv.style.display = "block"
-            resultDiv.innerHTML = inputSrch.toUpperCase() + "<strong> not Aviliable</strong>" + "<br><br>"+"<a href='#'>click to view availiable vehicles</a>"
+            resultDiv.innerHTML = inputSrch.toUpperCase() + "<strong> search error!</strong>" + "<br><br>"+"<a href='#'>click to view availiable vehicles</a>"
         };
 };
 

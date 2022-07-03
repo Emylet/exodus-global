@@ -103,7 +103,7 @@ li:hover{
     padding-top: 13px;
     text-align: center;
     background: darkblue;
-    height: 70px;
+    height: 65px;
     color: whitesmoke;
     font-family: arial;
 }
@@ -113,6 +113,7 @@ li:hover{
 #result-div a {
     color: yellow;
     font-weight: bold;
+    margin-bottom: 5px;
 
 }
 #result-div  a:hover{
