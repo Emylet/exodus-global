@@ -29,11 +29,11 @@ function srchEl() {
         if(index !== -1) {
             adverImg.style.display = "none"
             resultDiv.style.display = "block"
-            resultDiv.innerHTML =inputSrch.toUpperCase() + "<strong>  is Aviliable</strong>" + "<br><br>"+"<a href='#'>click to view vehicle</a>"
+            resultDiv.innerHTML =inputSrch.toUpperCase() + "<strong>  is Aviliable</strong>" + "<br><br>"+"<a href='goods.html'>click to view vehicle</a>"
         }
         else{
             resultDiv.style.display = "block"
-            resultDiv.innerHTML = inputSrch.toUpperCase() + "<strong> search error!</strong>" + "<br><br>"+"<a href='#'>click to view availiable vehicles</a>"
+            resultDiv.innerHTML = inputSrch.toUpperCase() + "<strong> search error!</strong>" + "<br><br>"+"<a href='goods.html'>click to view availiable vehicles</a>"
         };
 };
 
