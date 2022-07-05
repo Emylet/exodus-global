@@ -3,7 +3,6 @@
 
 $("document").ready(function() {
     $("#toyo-vehicles").hide();
-    $("#daihstu-vehicles").hide();
     $("#suzuki-vehicles").hide();
     $("#mazda-vehicles").hide();
     $("#honda-vehicles").hide();
@@ -11,7 +10,6 @@ $("document").ready(function() {
         $("#toyo-sec").on("click", function(){
             $("#toyo-vehicles").show();
             $("#hijet-vehicles").hide();
-            $("#daihstu-vehicles").hide();
             $("#suzuki-vehicles").hide();
             $("#mazda-vehicles").hide();
             $("#honda-vehicles").hide();
@@ -20,7 +18,6 @@ $("document").ready(function() {
         $("#hijet-sec").on("click", function(){
             $("#hijet-vehicles").show();
             $("#toyo-vehicles").hide();
-            $("#daihstu-vehicles").hide();
             $("#suzuki-vehicles").hide();
             $("#mazda-vehicles").hide();
             $("#honda-vehicles").hide();
@@ -30,7 +27,6 @@ $("document").ready(function() {
             $("#honda-vehicles").show();
             $("#hijet-vehicles").hide();
             $("#toyo-vehicles").hide();
-            $("#daihstu-vehicles").hide();
             $("#suzuki-vehicles").hide();
             $("#mazda-vehicles").hide();
             $("#nissan-vehicles").hide();
@@ -48,16 +44,6 @@ $("document").ready(function() {
             $("#mazda-vehicles").show();
             $("#hijet-vehicles").hide();
             $("#toyo-vehicles").hide();
-            $("#daihstu-vehicles").hide();
-            $("#honda-vehicles").hide();
-            $("#suzuki-vehicles").hide();
-            $("#nissan-vehicles").hide();
-        });
-        $("#daih-sec").on("click", function(){
-            $("#daihstu-vehicles").show();
-            $("#hijet-vehicles").hide();
-            $("#toyo-vehicles").hide();
-            $("#mazda-vehicles").hide();
             $("#honda-vehicles").hide();
             $("#suzuki-vehicles").hide();
             $("#nissan-vehicles").hide();

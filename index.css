@@ -133,10 +133,10 @@ li:hover{
     overflow-x: scroll;
     justify-content: center;
 }
-.advt-div{
+#advt-div{
     background: white;
-    width: 170px;
-    height: 210px;
+    width: 190px;
+    height: 220px;
     border-radius: 10px;
     margin: 5px;
     border: 1px solid black;
@@ -146,7 +146,7 @@ li:hover{
 }
 
 .imgs{
-    width: 170px;
+    width: 190px;
     height: 150px;
     object-fit: cover;
     border-top: 1px solid black;
@@ -209,20 +209,24 @@ li:hover{
     height: 100%;
     justify-content: center;
     
+    
 }
 .popular-model{
     display: flex;
     padding-top: 5px;
     padding-left: 20px;
+    border-bottom: 1px solid blue;
 }
 .imgs-md{
-    width: 150px;
+    width: 190px;
     height: 130px;
     object-fit: cover;
+    border: 1px solid blue;
+    border-radius: 7px;
 }
 #span-mds{
     padding-top: 21px;
-    padding-left: 15px;
+    padding-left: 12px;
 }
 footer{
     width: 100%;

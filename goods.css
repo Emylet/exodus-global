@@ -54,11 +54,12 @@ nav{
     object-fit: cover;
 }
 .brand-vehicles{
-    height: 240px;
+    height: 235px;
     justify-content: center;
     text-align: center;
     border: 2px solid blue;
     margin: 3px;
+    border-radius: 7px;
 }
 .md-nm{
     text-align: center;
@@ -119,7 +120,7 @@ color: whitesmoke;
 }
 .imgs{
     width: 190px;
-    height: 180px;
+    height: 170px;
     object-fit: cover;
 }
 }
