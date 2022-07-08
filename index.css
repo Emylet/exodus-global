@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 nav{
     background: rgb(4, 4, 26);
     color: whitesmoke;
@@ -16,14 +19,55 @@ nav{
     padding-left: 5px;
 }
 .head-name strong{
-    color: red;
+    color: lime;
+}
+.head-name a{
+    text-decoration: none;
+    color: blue;
 }
 .user-div{
-    padding-left: 75%;
+    padding-left: 60%;
+}
+
+
+form{
+    color: blue;
+    display: flex;
+    width: 100%;
+    padding: 0;
+    border: 3px solid blue;
+    border-radius: 5px;
+    outline: none;
+}
+input{width: 90%;}
+input[type="search"] {
+    border: none;
+    background: whitesmoke;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: none;
+    border-radius: 0;
+}
+input[type="search"]::placeholder {
+    color: white;
+}
+button[type="submit"] {
+    width: 50px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.7;
+    background: lime;
+    color: darkblue;
+    font-size: 12px;
+    font-weight: bold
 }
 .sign{
     font-family: sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
 }
 .carty{
@@ -36,14 +80,7 @@ nav{
     padding-top: 5px;
     text-align: center;
 }
-#input-srch{
-    width: 50%;
-    height: 22px;
-    border: none;
-    color:  darkblue;
-    border-radius: 5px;
-    padding-left: 10px;
-}
+
 .send-srch{
     width: 11%;
     height: 22px;
@@ -52,26 +89,27 @@ nav{
     border-radius: 5px
 }
 .brands-sec{
-    padding-top: 9px;
+    padding-top: 14px;
     padding-bottom: 0;
 }
 .item-logos{
     width: 100%;
     display: flex;
     list-style: none;
-    justify-content: center;
 }
+
 .item-logos a{
     text-decoration: none;
     color: whitesmoke;
+    padding-left: 16px;
 }
 li{
-    margin: 15px;
+    margin: 10px;
     margin-left: 0;
     margin-top: 0;
     font-family: sans-serif;
-    font-weight: bold;
-    font-size: 13px;
+    font-weight: 600;
+    font-size: 15px;
 }
 li:hover{
     color: orangered;
@@ -134,23 +172,24 @@ li:hover{
     justify-content: center;
 }
 #advt-div{
-    background: white;
+    background: rgba(243, 241, 237, 0.938);
     width: 190px;
     height: 220px;
     border-radius: 10px;
     margin: 5px;
-    border: 1px solid black;
+    border: 1px solid blue;
     color: blue;
     padding-top: 5px;
     text-align: center;
+    font-size: 12px;
 }
 
 .imgs{
     width: 190px;
     height: 150px;
     object-fit: cover;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
 }
 #checks{
     padding-left: 5px;
@@ -163,7 +202,7 @@ li:hover{
     padding-left: 5px;
     padding-top: 5px;
     font-size: 15px;
-    color: blue;
+    color: black;
     font-family: arial;
     text-align: left;
     height: 100px;
@@ -190,7 +229,7 @@ li:hover{
     color: whitesmoke;
 }
 #partner-acc{
-    color: blue;
+    color: black;
     text-decoration: none;
     font-size: 11px;
     font-family:sans-serif;
@@ -203,7 +242,7 @@ li:hover{
     padding-left: 5px;
     padding-top: 5px;
     font-size: 15px;
-    color: blue;
+    color: black;
     font-family: arial;
     text-align: left;
     height: 100%;
@@ -215,7 +254,7 @@ li:hover{
     display: flex;
     padding-top: 5px;
     padding-left: 20px;
-    border-bottom: 1px solid blue;
+    font-family:  Times, 'Times New Roman', serif;
 }
 .imgs-md{
     width: 190px;
@@ -225,8 +264,35 @@ li:hover{
     border-radius: 7px;
 }
 #span-mds{
-    padding-top: 21px;
     padding-left: 12px;
+    font-family: arial;
+    color: rgb(255, 0, 98);
+}
+#span-mds strong{
+    color:blue;
+}
+#span-mds b{
+    font-weight: bold;
+}
+
+.md-nms{
+    color: purple;
+}
+.md-btn{
+    width: 120px;
+    height: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    background: rgb(91, 91, 236);
+    font-weight: bold;
+    font-family: arial;
+    border: 2px solid blue;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.md-btn:hover{
+    background: whitesmoke;
+    color: blue;
 }
 footer{
     width: 100%;
@@ -255,7 +321,7 @@ footer{
 .media-link a{
     text-decoration: none;
     color: whitesmoke;
-    margin: 10px;
+    margin: 20px;
     padding-bottom: 7px;
 }
 .fab{
@@ -270,6 +336,48 @@ footer{
 .fa-instagram{
     color: rgb(166, 97, 235);
 }
+@media (max-width:800px){
+    .user-div{
+        padding-left: 20%;
+    }
+    form{
+        display: flex;
+        width: 93%;
+        height: 20px;
+        padding: 0;
+        border: 2px solid blue;
+        border-radius: 5px;
+    }
+    input{width: 74%;}
+    input[type="search"] {
+        border: none;
+        background: whitesmoke;
+        margin: 0;
+        padding: 7px 8px;
+        font-size: 14px;
+        color: inherit;
+        border: none;
+        border-radius: 0;
+        outline: none;
+    }
+    input[type="search"]::placeholder {
+        color: white;
+    }
+    button[type="submit"] {
+        width: 26%;
+        padding: 0;
+        margin: 0;
+        border: none;
+        border-radius: 0;
+        cursor: pointer;
+        opacity: 0.7;
+        background: lime;
+        color: darkblue;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    
+}
 @media (max-width:500px){
     nav{
         background: rgb(4, 4, 26);
@@ -283,12 +391,14 @@ footer{
         color: blue;
         padding-top: 2px;
         padding-left: 0;
+        font-size: 19px;
     }
     .head-name strong{
-        color: red;
+        color: lime;
     }
     .user-div{
-        padding-left: 22%;
+        padding-top: 2px;
+        padding-left: 18px;
     }
     .sign{
         font-family: sans-serif;
@@ -302,23 +412,56 @@ footer{
         color: whitesmoke;
     }
     .srch-div{
-        padding-top: 5px;
+        padding-top: 3px;
         text-align: left;
     }
-    #input-srch{
-        width: 70%;
-        height: 22px;
-        border: none;
-        border-radius: 5px;
-        padding-left: 10px;
-    }
+  
     .send-srch{
-        width: 18%;
-        height: 22px;
-        color: blue;
+        width: 22%;
+        height: 19px;
+        color: black;
         border: none;
         border-radius: 5px
     }
+
+
+form{
+    display: flex;
+    width: 93%;
+    height: 20px;
+    padding: 0;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+input{width: 74%;}
+input[type="search"] {
+    border: none;
+    background: whitesmoke;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: none;
+    border-radius: 0;
+    outline: none;
+}
+input[type="search"]::placeholder {
+    color: white;
+}
+button[type="submit"] {
+    width: 26%;
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    opacity: 0.7;
+    background: lime;
+    color: darkblue;
+    font-size: 12px;
+    font-weight: bold;
+}
+
     .brands-sec{
         padding-top: 9px;
         padding-bottom: 0;
@@ -375,17 +518,17 @@ footer{
         justify-content: left;
     }
     #advt-div{
-        background: white;
+        background: rgba(243, 241, 237, 0.938);
         width: 140px;
         height: 190px;
         border-radius: 10px;
         margin: 5px;
-        border: 1px solid black;
-        color: blue;
+        border: 1px solid blue;
+        color: black;
         text-align: center;
     }
     .mds{
-        color: blue;
+        color: black;
         font-size: 13px;
         padding-left: 10px;
         padding-top: 5px;
@@ -396,12 +539,12 @@ footer{
         width: 140px;
         height: 130px;
         object-fit: cover;
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid blue;
     }
     #checks{
         padding-left: 5px;
         font-size: 12px;
-        color: blue;
+        color: black;
         text-decoration: navy;
         font-family: times;
     }
@@ -409,6 +552,8 @@ footer{
         display: flex;
         padding-top: 5px;
         padding-left: 0;
+        background: rgba(243, 241, 237, 0.938);
+        border-bottom: 1px solid rgb(211, 186, 186);
     }
   
     .media-link{
@@ -416,6 +561,10 @@ footer{
         display: flex;
         list-style: none;
         justify-content: left;
-        padding-left: 12px;
+        padding-left: 1px;
+    }
+    #mail{
+        font-size: 12px;
+        padding-left: 0;
     }
 }

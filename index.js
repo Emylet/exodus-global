@@ -21,7 +21,8 @@ var errVal = document.getElementById("error-value");
 
 var myArr = ["hijet","toyota", "honda", "nissan", "mazda", "daihtsu", "suzuki"];
 
-function srchEl() {
+function srchEl(e) {
+    e.preventDefault();
     var inputSrch = document.getElementById("input-srch").value;
     inputSrch = inputSrch.toLowerCase();
     var index = myArr.indexOf(inputSrch);
