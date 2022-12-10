@@ -134,9 +134,8 @@ li:hover{
 .ship-div{
     height: 250px;
     width: 100%;
-    background: rgba(13, 13, 46, 0.877);
     background-size: 50%;
-    background-image: url(back-g/shop.jpg);
+    background-image: url(ship/img-19.jpg);
     object-fit: cover;
     background-position: left;
     
@@ -604,7 +603,7 @@ button[type="submit"] {
         height: 130px;
         object-fit: cover;
         background-size: 100%;
-        background-image: url(back-g/shop.jpg);
+        background-image: url(ship/img-19.jpg);
         background-position: center;
         background-repeat: no-repeat;
     }

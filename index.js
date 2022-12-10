@@ -1,7 +1,7 @@
 
 var adverChange = document.getElementById("advert-img");
 images = [
-   'back-g/shop.jpg',  'back-g/img-4.jpg',
+    'ship/img-19.jpg','back-g/img-4.jpg',
 ];
 
 
