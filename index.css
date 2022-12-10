@@ -3,8 +3,13 @@
     padding: 0;
 }
 body{
+    background: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
+
+
 nav{
     background: rgb(4, 4, 26);
     color: whitesmoke;
@@ -14,32 +19,33 @@ nav{
     display: flex;
 }
 .head-name{
-    color: blue;
     padding-top: 2px;
     padding-left: 5px;
 }
+
 .head-name strong{
-    color: lime;
+    color: white;
 }
 .head-name a{
     text-decoration: none;
-    color: blue;
+    color: lime;
 }
 .user-div{
-    padding-left: 60%;
+    padding-left: 10%;
+    width: 50%;
 }
 
 
 form{
     color: blue;
     display: flex;
-    width: 100%;
+    width: 80%;
     padding: 0;
     border: 3px solid blue;
     border-radius: 5px;
     outline: none;
 }
-input{width: 90%;}
+input{width: 80%;}
 input[type="search"] {
     border: none;
     background: whitesmoke;
@@ -54,7 +60,7 @@ input[type="search"]::placeholder {
     color: white;
 }
 button[type="submit"] {
-    width: 50px;
+    width: 20%;
     padding: 0;
     margin: 0;
     border: none;
@@ -126,11 +132,10 @@ li:hover{
     padding: 7px;
 }
 .ship-div{
-    height: 200px;
+    height: 250px;
     width: 100%;
     background: rgba(13, 13, 46, 0.877);
     background-size: 50%;
-    background-image: url(back-g/img-4.jpg);
     object-fit: cover;
     background-position: left;
     
@@ -172,13 +177,13 @@ li:hover{
     justify-content: center;
 }
 #advt-div{
-    background: rgba(243, 241, 237, 0.938);
+    background: rgba(13, 13, 46, 0.877);
     width: 190px;
     height: 220px;
     border-radius: 10px;
     margin: 5px;
     border: 1px solid blue;
-    color: blue;
+    color: whitesmoke;
     padding-top: 5px;
     text-align: center;
     font-size: 12px;
@@ -194,7 +199,7 @@ li:hover{
 #checks{
     padding-left: 5px;
     font-size: 12px;
-    color: blue;
+    color: whitesmoke;
     text-decoration: navy;
     font-family: times;
 }
@@ -205,17 +210,91 @@ li:hover{
     color: black;
     font-family: arial;
     text-align: left;
-    height: 100px;
     justify-content: center;
     border-top: 2px solid rgb(214, 208, 208);
     border-bottom: 2px solid rgb(214, 208, 208);
 }
+
+
+
+
+
+
+
+#aku-div{
+    background: #0d0d2ee0;
+    color: white;
+    text-align: center;
+}
+#akuBtn{
+    text-align: center;
+    justify-content: center;
+    background:rgba(13, 13, 46, 0.877); 
+    color: lime;
+    border-radius: 0;
+    border: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+}
+h2{
+    font-size: 22px;
+    text-align: center;
+    padding-top: 10px;
+}
+.aku-goods{
+    display: flex;
+    margin: 5px;
+    overflow-x: scroll;
+    justify-content: center;
+}
+
+.ship-aku{
+    height: 200px;
+    width: 100%;
+    background-size: 50%;
+    background-image: url(back-g/img-1.jpg);
+    object-fit: cover;
+    background-position: left;
+    
+}
+
 .order-div{
     text-align: center;
     margin: 10px;
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: center;
 }
+
+
+
+
+
+
+
+
+
+
+
 .order-btn{
-    width: 150px;
+    width: 110px;
+    height: 27px;
+    background: blue;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-weight: bold;
+    border: 2px solid whitesmoke;
+    border-radius: 7px;
+    cursor: pointer;
+    text-align: center;
+}
+.order-btn:hover{
+    background: whitesmoke;
+    color: blue;
+}
+
+.later-btn{
+    width: 110px;
     height: 27px;
     font-family: 'Times New Roman', Times, serif;
     color: blue;
@@ -223,20 +302,27 @@ li:hover{
     border: 2px solid blue;
     border-radius: 7px;
     cursor: pointer;
+    
 }
-.order-btn:hover{
+.later-btn:hover{
     background: blue;
     color: whitesmoke;
 }
 #partner-acc{
     color: black;
     text-decoration: none;
-    font-size: 11px;
+    font-size: 19px;
     font-family:sans-serif;
     font-weight: bold;
 }
 #partner-acc:hover{
     color: orangered;
+}
+
+#partner{
+    justify-content:center;
+    text-align:center;
+    padding-bottom: 5px;
 }
 .popular-div{
     padding-left: 5px;
@@ -255,6 +341,15 @@ li:hover{
     padding-top: 5px;
     padding-left: 20px;
     font-family:  Times, 'Times New Roman', serif;
+}
+
+.naija{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.naija strong{
+    color: green;
 }
 .imgs-md{
     width: 190px;
@@ -379,6 +474,9 @@ footer{
     
 }
 @media (max-width:500px){
+    body{
+        background: whitesmoke;
+    }
     nav{
         background: rgb(4, 4, 26);
         color: whitesmoke;
@@ -388,17 +486,17 @@ footer{
         display: flex;
     }
     .head-name{
-        color: blue;
-        padding-top: 2px;
+
+        padding-top: 7px;
         padding-left: 0;
-        font-size: 19px;
+        font-size: 12px;
     }
     .head-name strong{
-        color: lime;
+        color: white;
     }
     .user-div{
         padding-top: 2px;
-        padding-left: 18px;
+        padding-left: 5px;
     }
     .sign{
         font-family: sans-serif;
@@ -427,7 +525,7 @@ footer{
 
 form{
     display: flex;
-    width: 93%;
+    width: 92%;
     height: 20px;
     padding: 0;
     border: 2px solid blue;
@@ -497,7 +595,7 @@ button[type="submit"] {
         padding: 7px;
     }
     .ship-div{
-        background-image: url(back-g/img-1.jpg);
+        height: 130px;
         object-fit: cover;
         background-size: 100%;
         background-position: center;
@@ -518,15 +616,19 @@ button[type="submit"] {
         justify-content: left;
     }
     #advt-div{
-        background: rgba(243, 241, 237, 0.938);
+        background: rgba(13, 13, 46, 0.877);
         width: 140px;
         height: 190px;
         border-radius: 10px;
         margin: 5px;
         border: 1px solid blue;
-        color: black;
+        color: whitesmoke;
         text-align: center;
     }
+    .bd-all{
+        display: none;
+    }
+
     .mds{
         color: black;
         font-size: 13px;
@@ -544,11 +646,124 @@ button[type="submit"] {
     #checks{
         padding-left: 5px;
         font-size: 12px;
-        color: black;
+        color: white;
         text-decoration: navy;
         font-family: times;
     }
+
+
+
+
+
+    #aku-div{
+        background: rgba(13, 13, 46, 0.877);
+        color: white;
+        align-items: center;
+        width: 90%;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: none;
+    }
+    h2{
+        font-size: 17px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 4px;
+    }
+    #akuBtn{
+        text-align: center;
+        background:rgba(13, 13, 46, 0.877); 
+        color: lime;
+        border-radius: 0;
+        border: none;
+        font-family: Helvetica, sans-serif;
+        font-size: 11px;
+        font-weight: 600;
+    }
+    .aku-goods{
+        display: flex;
+        margin: 5px;
+        overflow-x: scroll;
+        justify-content: center;
+    }
+    
+    .ship-aku{
+        height: 170px;
+        width: 100%;
+        background-size: 100%;
+        background-image: url(back-g/img-1.jpg);
+        object-fit: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+
+
+    .order-div{
+        text-align: center;
+        margin: 10px;
+        display: flex;
+        padding-bottom: 10px;
+  
+        justify-content: center;
+    }
+    
+    .order-btn{
+        width: 100px;
+        height: 27px;
+        font-family: 'Times New Roman', Times, serif;
+        color: whitesmoke;
+        font-weight: bold;
+        border: 2px solid whitesmoke;
+        border-radius: 7px;
+        cursor: pointer;
+        margin: 5px;
+        
+    }
+    .order-btn:hover{
+        background: whitesmoke;
+        color: blue;
+    }
+    .later-btn{
+        width: 100px;
+        height: 27px;
+        font-family: 'Times New Roman', Times, serif;
+        color: blue;
+        font-weight: bold;
+        border: 2px solid blue;
+        border-radius: 7px;
+        cursor: pointer;
+        margin: 5px;
+        
+    }
+    .later-btn:hover{
+        background: blue;
+        color: whitesmoke;
+    }
+
+    #partner-acc{
+        color: black;
+        text-decoration: none;
+        font-size: 12px;
+        font-family:sans-serif;
+        font-weight: bold;
+    }
+
+    #partner{
+        justify-content:center;
+        text-align:center;
+        padding-bottom: 5px;
+    }
+
+
+
+
     .popular-model{
+        font-size:11px;
+        font-weight:bold;
+        font-family:arial,Helvetica;
         display: flex;
         padding-top: 5px;
         padding-left: 0;

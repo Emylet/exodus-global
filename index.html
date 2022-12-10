@@ -4,16 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exodus Forwards</title>
+    <title>Exodus Global Industry</title>
     <script src="js/jquery.js"></script>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="css/all.css">
+    <script>
+        $(document).ready(function(){
+            setTimeout(showAku,6000);
+
+            function showAku(){
+                $("#aku-div").show();
+            }
+
+                $("#later").click(function(e){
+                    $("#aku-div").hide();
+                });
+        })
+    </script>
 </head>
 <body>
     <!--Navbar Section-->
     <nav>
         <div class="navbar">
-           <h1 class="head-name"><a href="index.html">Exodus<strong>Global</strong> </a></h1>
+           <h1 class="head-name"><a href="index.html">EXODUS <strong>GLOBAL</strong> IND </a></h1>
            <div class="user-div">
             <form>
                 <input type="text" placeholder=" Search vehicle" id="input-srch" />
@@ -22,6 +35,10 @@
            
             </div>
         </div>
+
+
+
+        
         
         <div class="brands-sec">
             <ul class="item-logos">
@@ -37,7 +54,7 @@
         <p class="dsc-p">Dealers on all kinds Japanese commercial vehicle and heavy duty machines</p>
     </div>
     <div class="ship-div" id="advert-img">
-
+        
         </div>
         <div id="result-div">
                
@@ -46,11 +63,20 @@
         </div>
     <div class="advert-cnt">
         <div id="advt-div">
+            SUZUKI
+            <img class="imgs" src="suzi/download (11).jpg">
+            <a id="checks" href="goods.html">Check more</a>
+        </div>
+        <div id="advt-div">
             HIJET
             <img class="imgs" src="hij/download (10).jpg">
             <a id="checks" href="goods.html">Check more</a>
         </div>
-        
+        <div id="advt-div">
+            TOYOTA
+            <img class="imgs" src="toyo/bus17.jpg">
+            <a id="checks" href="goods.html">Check more</a>
+        </div>
         <div id="advt-div">
             NISSAN
             <img class="imgs" src="niss/download (3).jpg">
@@ -61,16 +87,8 @@
             <img class="imgs" src="hond/img003.jpg">
             <a id="checks" href="goods.html">Check more</a>
         </div>
-        <div id="advt-div">
-            SUZUKI
-            <img class="imgs" src="suzi/download (11).jpg">
-            <a id="checks" href="goods.html">Check more</a>
-        </div>
-        <div id="advt-div">
-            TOYOTA
-            <img class="imgs" src="toyo/bus17.jpg">
-            <a id="checks" href="goods.html">Check more</a>
-        </div>
+       
+       
         <div id="advt-div">
             MAZDA
             <img class="imgs" src="mazd/download (9).jpg">
@@ -78,67 +96,110 @@
         </div>
     </div>
     <div class="order-cnt">
-        Order now for the best experience!
-        <div class="order-div">
-            <input class="order-btn" type="button" value="Order Now">
+
+
+
+        <div id="aku-div">
+            <h2>AKUMICK MERCHANDISE LIMITED</h2>
+            <button id="akuBtn">EXPORTS ON: Motor Spare Parts, Engines, Generators, Boat Engines, Used Tracks and Cars, etc.</button>
+                <div class="aku-goods">
+                    <div class="ship-aku">
+                        
+                    </div>
+                </div>
+                <button id="akuBtn">We export to all nation such as Nigeria, Ghana, Tanzania, Burkinafaso, Angola, Including Thailand and Malaysia</button>
+
+                <div class="order-div">
+                    <input class="later-btn" id="later" type="button" value="LATER">
+                    <a href="https://akumickltd2005.web.fc2.com">
+                        <input class="order-btn" type="button" value="VISIT">
+                    </a>
+                </div>
         </div>
-        <a href="#" id="partner-acc">Create partner account</a>
+
+       <div  id="partner">
+        <a href="https://wa.me/+819099969461">
+            <input class="later-btn" type="button" value="ORDER NOW">
+        </a>
+            <br>
+        <a href="https://wa.me/+819099969461" id="partner-acc">You can visit and partner with us to book and order goods abroad at low shipping cost!</a>
+       </div>
+
+        
     </div>
     <div class="popular-div">
-        Popular models (Nigeria)
+       <p class="naija"> POPULAR MODELS <strong>(Nigeria)</strong></p>
         <div class="popular-model">
             <img class="imgs-md" src="hij/download (8).jpg">
             <span id="span-mds"> <strong>DAIHSTU HIJET </strong><br>
             <b>Engine:</b> Automatic
-            <p class="md-nms"><b>Ref No:</b> TGH3443</p>
+            <p class="md-nms"><b>Ref No:</b> TGH9753</p>
             <b>Price:</b> undisclosed<br>
-            <input class="md-btn" type="button" value="Order Now">
+            <a href="https://wa.me/+819099969461">
+                <input class="md-btn" type="button" value="Purchase">
+            </a>
         </span>
         </div>
+
         <div class="popular-model">
-            <img class="imgs-md" src="niss/download (4).jpg">
-            <span id="span-mds"> <strong>TOYOTA </strong><br>
-                <b>Engine:</b> Automatic
-                <p class="md-nms"><b>Ref No:</b> TGH3443</p>
+            <img class="imgs-md" src="suzi/download (11).jpg">
+            <span id="span-mds"> <strong>SUZUKI </strong><br>
+                <b>Engine:</b> Manual
+                <p class="md-nms"><b>Ref No:</b> FXSC453</p>
                 <b>Price:</b> undisclosed<br>
-                <input class="md-btn" type="button" value="Order Now">
-            </span>
-        </div>
-        <div class="popular-model">
-            <img class="imgs-md" src="toyo/bus13.jpg">
-            <span id="span-mds"> <strong>TOYOTA HIACE </strong><br>
-                <b>Engine:</b> Automatic
-                <p class="md-nms"><b>Ref No:</b> TGH3443</p>
-                <b>Price:</b> undisclosed<br>
-                <input class="md-btn" type="button" value="Order Now">
-            </span>
-        </div>
-        <div class="popular-model">
-            <img class="imgs-md" src="niss/download (19).jpg">
-            <span id="span-mds"> <strong>DAIHSTU HIJET </strong><br>
-                <b>Engine:</b> Automatic
-                <p class="md-nms"><b>Ref No:</b> TGH3443</p>
-                <b>Price:</b> undisclosed<br>
-                <input class="md-btn" type="button" value="Order Now">
+                <a href="https://wa.me/+819099969461">
+                    <input class="md-btn" type="button" value="Purchase">
+                </a>
             </span>
         </div>
 
         <div class="popular-model">
-            <img class="imgs-md" src="hij/download (14).jpg">
-            <span id="span-mds"> <strong>DAIHSTU HIJET </strong><br>
-                <b>Engine:</b> Automatic
-                <p class="md-nms"><b>Ref No:</b> TGH3443</p>
+            <img class="imgs-md" src="hond/img003.jpg">
+            <span id="span-mds"> <strong>HONDA </strong><br>
+                <b>Engine:</b> Manual
+                <p class="md-nms"><b>Ref No:</b> TBG1913</p>
                 <b>Price:</b> undisclosed<br>
-                <input class="md-btn" type="button" value="Order Now">
+                <a href="https://wa.me/+819099969461">
+                    <input class="md-btn" type="button" value="Purchase">
+                </a>
             </span>
         </div>
+
+
+        <div class="popular-model">
+            <img class="imgs-md" src="toyo/bus17.jpg">
+            <span id="span-mds"> <strong>TOYOTA </strong><br>
+                <b>Engine:</b> Automatic
+                <p class="md-nms"><b>Ref No:</b> EXD3743</p>
+                <b>Price:</b> undisclosed<br>
+                <a href="https://wa.me/+819099969461">
+                    <input class="md-btn" type="button" value="Purchase">
+                </a>
+            </span>
+        </div>
+       
+        <div class="popular-model">
+            <img class="imgs-md" src="niss/download (18).jpg">
+            <span id="span-mds"> <strong>NISSAN </strong><br>
+                <b>Engine:</b> Manual
+                <p class="md-nms"><b>Ref No:</b> TCB9675</p>
+                <b>Price:</b> undisclosed<br>
+                <a href="https://wa.me/+819099969461">
+                    <input class="md-btn" type="button" value="Purchase">
+                </a>
+            </span>
+        </div>
+
+        
         <div class="popular-model">
             <img class="imgs-md" src="toyo/bus12.jpg">
-            <span id="span-mds"> <strong>DAIHSTU HIJET </strong><br>
-                <b>Engine:</b> Automatic
-                <p class="md-nms"><b>Ref No:</b> TGH3443</p>
+            <span id="span-mds"> <strong>TOYOTA </strong><br>
+                <b>Engine:</b> Manual
+                <p class="md-nms"><b>Ref No:</b> TDF9843</p>
                 <b>Price:</b> undisclosed<br>
-                <input class="md-btn" type="button" value="Order Now">
+                <a href="https://wa.me/+819099969461">
+                    <input class="md-btn" type="button" value="Purchase">
+                </a>
             </span>
         </div>
     </div>
@@ -146,12 +207,13 @@
          <div class="navbar">
             <ul class="media-link">
                 <a href="#"><i class="fab fa-facebook-f "></i></a>
-                <a href="https://wa.me/+2348109954209"><i class="fab fa-whatsapp"> </i></a>
+                <a href="https://wa.me/+819099969461"><i class="fab fa-whatsapp"> </i></a>
                 <a href="#"><i class="fab fa-instagram "> </i></a>
                 <a href="#"><i  class="fab fa-twitter"> </i></a>
                 <a href="#" class="fas fa-user"></a>
                 <a href="#" class="fas fa-cart-plus carty" ></a>
         </div>
+    </div>
         <ul class="footer-items">
             <a href="infox.html"><li>ABOUT US </li></a>
             <a href="infox.html"><li>CONTACT</li></a>
@@ -159,8 +221,8 @@
             <a href="#"><li>PARTNERSHIPS</li></a>
         </ul>
         <ul class="media-link">
-            <a id="mail" href="mailto:evax1914@gmail.com">mail: evax1914@gmail.com</a>
-            <a id="mail" href="#">+2348109954209</a>
+            <a id="mail" href="mailto:exodusgloballtd@yahoo.com">exodusgloballtd@yahoo.com</a>
+            <a id="mail" href="#">+819099969461</a>
             
         </ul>
     </footer>

@@ -1,7 +1,7 @@
 
 var adverChange = document.getElementById("advert-img");
 images = [
-   'back-g/img-1.jpg','back-g/img-2.jpg',  'back-g/img-4.jpg',
+   'back-g/shop.jpg',  'back-g/img-4.jpg',
 ];
 
 
@@ -39,6 +39,9 @@ function srchEl(e) {
 };
 
 srchBtn.addEventListener("click",srchEl );
+
+
+
 
 
 
