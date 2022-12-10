@@ -24,11 +24,11 @@ nav{
 }
 
 .head-name strong{
-    color: white;
+    color: cyan;
 }
 .head-name a{
     text-decoration: none;
-    color: lime;
+    color: cyan;
 }
 .user-div{
     padding-left: 10%;
@@ -460,7 +460,7 @@ footer{
         color: white;
     }
     button[type="submit"] {
-        width: 26%;
+        width: 27%;
         padding: 0;
         margin: 0;
         border: none;
@@ -475,6 +475,11 @@ footer{
     
 }
 @media (max-width:500px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
     body{
         background: whitesmoke;
     }
@@ -493,7 +498,7 @@ footer{
         font-size: 12px;
     }
     .head-name strong{
-        color: white;
+        color: cyan;
     }
     .user-div{
         padding-top: 2px;
