@@ -8,21 +8,20 @@ body{
 nav{
     background: black;
     width: 100%;
-    height: 60px;
+    text-align: center;
 }
-    .head-name{
-    color: blue;
-    padding-top: 2px;
+.head-name{
+    padding-top: 10px;
     padding-left: 5px;
-    padding-top: 9px;
     font-size: 18px;
 }
-    .head-name strong{
-    color: white;
+
+.head-name strong{
+    color: cyan;
 }
 .head-name a{
     text-decoration: none;
-    color: lime;
+    color: cyan;
 }
 #vehicles-links{
     display: flex;
@@ -33,6 +32,7 @@ nav{
     width: 90px;
     text-align: center;
     margin: 7px;
+    color: whitesmoke;
     
 }
 .active{
@@ -50,6 +50,54 @@ nav{
     display: flex;
     overflow-x: scroll;
 }
+.aku{
+    text-align: center;
+    padding-bottom: 8px;
+}
+.dsc-aku{
+    border: none;
+    background: none;
+    color: darkblue;
+    padding-top: 8px;
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+.aku-btn{
+    width: 600px;
+    height: 50px;
+    font-size: 22px;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: 2px solid purple;
+    animation: bgcolor infinite 20s;
+}
+
+@keyframes bgcolor{
+    0%
+    {
+        background: rgb(22, 51, 131);
+    }
+    20%
+    {
+        background: rgb(17, 128, 76);
+    }
+    40%
+    {
+        background: darkblue;
+    }
+    60%
+    {
+        background: darkgreen;
+    }
+    80%
+    {
+        background: rgb(117, 0, 128);
+    }
+    100%
+    {
+        background: blue;
+    }
+}
 #others{
     width: 100%;
     display: flex;
@@ -62,16 +110,15 @@ nav{
     object-fit: cover;
 }
 .brand-vehicles{
-    height: 235px;
+    height: 250px;
+    padding-top: 10px;
     justify-content: center;
     text-align: center;
     border: 2px solid blue;
     margin: 3px;
     border-radius: 7px;
 }
-.md-nm{
-    text-align: center;
-}
+
 .order{
     text-align: center;
     color: yellow;
@@ -93,6 +140,12 @@ background: blue;
 color: whitesmoke;
 }
 @media (max-width:500px){
+
+    .head-name{
+        padding-top: 10px;
+        padding-left: 5px;
+        font-size: 12px;
+    }
     #vehicles-links{
     display: flex;
     padding: 10px;
@@ -108,7 +161,7 @@ color: whitesmoke;
     font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color: blue;
+    color: whitesmoke;
    
 }
 .active{
@@ -121,6 +174,70 @@ color: whitesmoke;
     display: flex;
     overflow-x: scroll;
 }
+.brand-vehicles{
+    height: 205px;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid blue;
+    margin: 3px;
+    border-radius: 7px;
+}
+
+
+
+.aku{
+    text-align: center;
+    padding-bottom: 8px;
+}
+.dsc-aku{
+    border: none;
+    background: none;
+    color: darkblue;
+    padding-top: 8px;
+    font-size: 13px;
+    padding-bottom: 8px;
+}
+.aku-btn{
+    width: 280px;
+    height: 40px;
+    font-size: 16px;
+    color: whitesmoke;
+    border-radius: 5px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    
+}
+
+.brand-akus{
+    height: 120px;
+    width: 110px;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid blue;
+    margin: 3px;
+    border-radius: 7px;
+}
+.imgds{
+    width: 100px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.order-aku{
+    width: 100px;
+    height: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 7px;
+    cursor: pointer;
+    }
+    .order-aku:hover{
+    background: blue;
+    color: whitesmoke;
+    }
 #hijet-vehicles{
     width: 100%;
     display: flex;

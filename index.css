@@ -135,7 +135,7 @@ li:hover{
     height: 250px;
     width: 100%;
     background-size: 50%;
-    background-image: url(ship/img-19.jpg);
+    background-image: url(ship/img-20.JPG);
     object-fit: cover;
     background-position: left;
     
@@ -214,17 +214,15 @@ li:hover{
     border-top: 2px solid rgb(214, 208, 208);
     border-bottom: 2px solid rgb(214, 208, 208);
 }
-
-
-
-
-
-
-
 #aku-div{
     background: #0d0d2ee0;
     color: white;
     text-align: center;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
 }
 #akuBtn{
     text-align: center;
@@ -265,16 +263,6 @@ h2{
     padding-bottom: 10px;
     justify-content: center;
 }
-
-
-
-
-
-
-
-
-
-
 
 .order-btn{
     width: 110px;
@@ -603,7 +591,7 @@ button[type="submit"] {
         height: 130px;
         object-fit: cover;
         background-size: 100%;
-        background-image: url(ship/img-19.jpg);
+        background-image: url(ship/img-20.JPG);
         background-position: center;
         background-repeat: no-repeat;
     }
@@ -667,7 +655,7 @@ button[type="submit"] {
         align-items: center;
         width: 90%;
         position: fixed;
-        top: 50%;
+        top: 45%;
         left: 50%;
         transform: translate(-50%,-50%);
         display: none;
