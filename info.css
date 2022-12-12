@@ -1,0 +1,259 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav{
+            justify-items: right;
+            text-align: right;
+            background: rgb(3, 3, 29);
+            padding-right: 10%;
+            height: 30px;
+            padding-top: 8px;
+        }
+        nav a{
+            color: white;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        nav a:hover{
+            color: yellow;
+        }
+
+        span{
+            margin: 10px;
+            
+        }
+        .ovd{
+            padding-top: 12px;
+        }
+        div a {
+            text-decoration: none;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+        }
+        #ab-div{
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+        #abtn{
+            width: 350px;
+            height: 35px;
+            font-size: 16px;
+            text-align: left;
+            font-weight: 800;
+            padding-left: 9px;
+            background: orange;
+            border: none;
+            border-radius:none;
+            color: white;
+        }
+        #vbtn{
+            width: 250px;
+            height: 35px;
+            font-weight: 600;
+            font-size: 23px;
+            text-align: left;
+            border: none;
+            border-radius:none;
+            padding-top: 7px;
+            background: none;
+        }
+        #sec-div{
+            display: flex;
+            padding-top: 10px;
+        }
+        #right-div{
+            flex: 1.3;
+            justify-content: center;
+            padding-left: 10px;
+        }
+        .container{
+            justify-content: center;
+        }
+        #ice-creams, .more{
+            list-style: none;
+        }
+       
+        .flavours{
+            font-size: 22px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .flavour{
+            padding-left: 10px;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .more{
+            padding-left: 10px;
+            font-size: 20px;
+            padding: 1px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .arrow::before{
+            content: '\25B6';
+            color: black;
+            margin-right: 2px;
+            display: inline-block;
+        }
+        .more{
+            display: none;
+            padding-left: 10px;
+        }
+        .show{
+            display: block;
+        }
+        .arrow-down::before{
+            transform: rotate(-270deg);
+        }
+        #left-div{
+            flex: 2;
+        }
+        .abtsv{
+            padding-top: 15px;
+            padding-left: 29px;
+            list-style: none;  
+        }
+        .abtsv a li{
+            font-family: Verdana, Tahoma, sans-serif;
+            font-size: 15px;
+        }
+        .abtsv a li:hover{
+            color: yellow;
+        }
+        h1{
+            font-size: 24px;
+            color: darkblue;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        @media (max-width:500px){
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            
+            nav{
+                justify-items: right;
+                text-align: right;
+                background: rgb(3, 3, 29);
+                padding-right: 8%;
+                height: 30px;
+                padding-top: 8px;
+            }
+            nav a{
+                color: white;
+                text-decoration: none;
+                font-size: 12px;
+                font-family: Arial, Helvetica, sans-serif;
+    
+            }
+            nav a:hover{
+                color: yellow;
+            }
+    
+            span{
+                margin: 7px;
+                
+            }
+            .ovd{
+                padding-top: 7px;
+            }
+            div a {
+                text-decoration: none;
+                font-size: 14px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 600;
+            }
+            #ab-div{
+                padding-left: 5px;
+                padding-top: 7px;
+            }
+            #abtn{
+                width: 250px;
+                height: 30px;
+                font-size: 13px;
+                text-align: left;
+                font-weight: 400;
+                padding-left: 9px;
+                background: rgb(231, 169, 52);
+                border: none;
+                border-radius:none;
+                color: white;
+            }
+           
+            #sec-div{
+                display: flex;
+                padding-top: 10px;
+            }
+            #right-div{
+                flex: 1.7;
+                justify-content: center;
+                padding-left: 10px;
+            }
+            .container{
+                justify-content: center;
+            }
+            #ice-creams, .more{
+                list-style: none;
+            }
+           
+            .flavours{
+                font-size: 15px;
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .flavour{
+                padding-left: 5px;
+                font-size: 10px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .more{
+                padding-left: 5px;
+                font-size: 10px;
+                padding: 1px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .arrow::before{
+                content: '\25B6';
+                color: black;
+                margin-right: 2px;
+                display: inline-block;
+            }
+            .more{
+                display: none;
+                padding-left: 10px;
+            }
+            .show{
+                display: block;
+            }
+            .arrow-down::before{
+                transform: rotate(-270deg);
+            }
+            .abtsv{
+                padding-top: 10px;
+                padding-left: 22px;
+                list-style: none;  
+            }
+            .abtsv a li{
+                font-family: Verdana, Tahoma, sans-serif;
+                font-size: 12px;
+            }
+            .abtsv a li:hover{
+                color: yellow;
+            }
+            #left-div{
+                flex: 2;
+                font-family: times;
+            }
+            h1{
+                font-size: 16px;
+                color: darkblue;
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }
