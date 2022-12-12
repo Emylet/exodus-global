@@ -135,10 +135,38 @@ li:hover{
     height: 250px;
     width: 100%;
     background-size: 50%;
-    background-image: url(ship/img-20.JPG);
     object-fit: cover;
     background-position: left;
+    animation: bgcolor infinite 20s;
     
+}
+
+
+@keyframes bgcolor{
+    0%
+    {
+        background-image: url(ship/img-20.JPG);
+    }
+    20%
+    {
+        background-image: url(back-g/img-4.jpg);
+    }
+    40%
+    {
+         background-image: url(back-g/img-9.jpg);
+    }
+    60%
+    {
+        background-image: url(ship/img-20.JPG);
+    }
+    80%
+    {
+        background-image: url(back-g/img-4.jpg);
+    }
+    100%
+    {
+        background-image: url(back-g/img-9.jpg);
+    }
 }
 
 #result-div{
