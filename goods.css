@@ -50,27 +50,7 @@ nav{
     display: flex;
     overflow-x: scroll;
 }
-.aku{
-    text-align: center;
-    padding-bottom: 8px;
-}
-.dsc-aku{
-    border: none;
-    background: none;
-    color: darkblue;
-    padding-top: 8px;
-    font-size: 18px;
-    padding-bottom: 8px;
-}
-.aku-btn{
-    width: 600px;
-    height: 50px;
-    font-size: 22px;
-    color: whitesmoke;
-    border-radius: 10px;
-    border: 2px solid purple;
-    animation: bgcolor infinite 20s;
-}
+
 
 @keyframes bgcolor{
     0%
@@ -98,12 +78,7 @@ nav{
         background: blue;
     }
 }
-#others{
-    width: 100%;
-    display: flex;
-    overflow-x: scroll;
-    padding-bottom: 5px;
-}
+
 .imgs{
     width: 250px;
     height: 190px;
@@ -139,7 +114,98 @@ cursor: pointer;
 background: blue;
 color: whitesmoke;
 }
+.aku{
+    text-align: center;
+    padding: 12px;
+    padding-bottom: 8px;
+}
+.aku-btn{
+    width: 250px;
+    height: 35px;
+    font-size: 22px;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: 2px solid purple;
+    animation: bgcolor infinite 20s;
+}
+#val{
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 17px;
+    padding: 4px;
+}
+span{
+    font-size: 16px;
+    padding-top: 7px;
+   
+}
+#more-div{
+    
+    text-align: center;
+    margin: 2px;
+}
+.more-btn{
+    width: 60%;
+    height: 39px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    border-radius: 5px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    background: rgba(37, 37, 221, 0.89);
+}
+.more-btn:hover{
+    color: white;
+    background: rgb(100, 100, 240);
+}
+.srch-bd{
+    padding-left: 8%;
+    font-size: 16px;
+    font-weight: bold;
+}
+#dsk{
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    padding-top: 8px;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+}
+#bd-sec{
+    display: none;
+    width: 100%;
+    overflow-x: scroll;
+    padding-top: 8px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.bd-logo{
+    height: 50px;
+    padding-top: 10px;
+    justify-content: center;
+    text-align: center;
+    margin: 3px;
+    border-radius: 7px;
+    border: 2px solid black;
+}
+.imgsb{
+    width: 60px;
+    height: 50px;
+    object-fit: cover;
+    text-align: center;
+}
 @media (max-width:500px){
+
+    body{
+        padding: 0;
+        margin: 0;
+    }
 
     .head-name{
         padding-top: 10px;
@@ -175,7 +241,7 @@ color: whitesmoke;
     overflow-x: scroll;
 }
 .brand-vehicles{
-    height: 205px;
+    height: 110px;
     justify-content: center;
     text-align: center;
     border: 2px solid blue;
@@ -187,65 +253,120 @@ color: whitesmoke;
 
 .aku{
     text-align: center;
-    padding-bottom: 8px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
+    margin: 0;
 }
-.dsc-aku{
-    border: none;
-    background: none;
-    color: darkblue;
-    padding-top: 8px;
-    font-size: 13px;
-    padding-bottom: 8px;
+
+#val{
+    padding-top: 7px;
+    font-size: 19px;
+    font-family: sans-serif;
 }
+hr{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-weight: bold;
+}
+p{
+    font-size: 11px;
+    font-weight: 400;
+    padding: 3px;
+}
+#btn-div{
+    padding: 9px;
+}
+
 .aku-btn{
-    width: 280px;
-    height: 40px;
+    width: 120px;
+    height: 28px;
     font-size: 16px;
     color: whitesmoke;
     border-radius: 5px;
     border: 2px solid purple;
-    border-radius: 10px;
+    border-radius: 5px;
     
 }
-
-.brand-akus{
-    height: 120px;
-    width: 110px;
+span{
+    font-size: 10px;
+    text-align: right;
+}
+#more-div{
+    
+    text-align: center;
+    margin: 2px;
+}
+.more-btn{
+    width: 90%;
+    height: 32px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    border-radius: 5px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    background: rgba(37, 37, 221, 0.89);
+}
+.more-btn:hover{
+    color: white;
+    background: rgb(100, 100, 240);
+}
+.srch-bd{
+    padding-left: 8%;
+    font-size: 13px;
+    font-weight: bold;
+}
+#dsk{
+    display: none; 
+}
+#bd-sec{
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    padding-top: 8px;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+}
+.bd-logo{
+    height: 50px;
+    padding-top: 10px;
     justify-content: center;
     text-align: center;
-    border: 2px solid blue;
     margin: 3px;
     border-radius: 7px;
+    border: 2px solid black;
 }
-.imgds{
-    width: 100px;
-    height: 90px;
+.imgsb{
+    width: 60px;
+    height: 50px;
     object-fit: cover;
+    text-align: center;
 }
 
-.order-aku{
-    width: 100px;
-    height: 23px;
-    font-family: 'Times New Roman', Times, serif;
-    color: blue;
-    font-weight: bold;
-    text-align: center;
-    border: 2px solid blue;
-    border-radius: 7px;
-    cursor: pointer;
-    }
-    .order-aku:hover{
-    background: blue;
-    color: whitesmoke;
-    }
 #hijet-vehicles{
     width: 100%;
     display: flex;
     overflow-x: scroll;
 }
 .imgs{
-    width: 190px;
-    height: 170px;
+    width: 90px;
+    height: 80px;
     object-fit: cover;
 }
+.order-btn{
+    width: 65px;
+    height: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 7px;
+    cursor: pointer;
+    }
 }

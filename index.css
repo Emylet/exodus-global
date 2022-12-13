@@ -243,10 +243,11 @@ li:hover{
     border-bottom: 2px solid rgb(214, 208, 208);
 }
 #aku-div{
-    background: #0d0d2ee0;
+    background: rgb(22, 82, 105);
     color: white;
     text-align: center;
     position: fixed;
+    border: 2px solid black;
     top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -255,8 +256,8 @@ li:hover{
 #akuBtn{
     text-align: center;
     justify-content: center;
-    background:rgba(13, 13, 46, 0.877); 
-    color: lime;
+    background: rgb(22, 82, 105);
+    color: white;
     border-radius: 0;
     border: none;
     font-family: Helvetica, sans-serif;
@@ -266,6 +267,7 @@ h2{
     font-size: 22px;
     text-align: center;
     padding-top: 10px;
+    color: white;
 }
 .aku-goods{
     display: flex;
@@ -678,7 +680,7 @@ button[type="submit"] {
 
 
     #aku-div{
-        background: rgba(13, 13, 46, 0.877);
+        background: rgb(22, 82, 105);
         color: white;
         align-items: center;
         width: 90%;
@@ -690,14 +692,15 @@ button[type="submit"] {
     }
     h2{
         font-size: 17px;
+        color: white;
         text-align: center;
         padding-top: 10px;
         padding-bottom: 4px;
     }
     #akuBtn{
         text-align: center;
-        background:rgba(13, 13, 46, 0.877); 
-        color: lime;
+        background:rgb(22, 82, 105);
+        color: white;
         border-radius: 0;
         border: none;
         font-family: Helvetica, sans-serif;
