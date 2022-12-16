@@ -149,7 +149,7 @@ li:hover{
     }
     20%
     {
-        background-image: url(back-g/img-4.jpg);
+        background-image: url(ship/img-20.JPG);
     }
     40%
     {
@@ -157,7 +157,7 @@ li:hover{
     }
     60%
     {
-        background-image: url(ship/img-20.JPG);
+        background-image: url(back-g/img-9.jpg);
     }
     80%
     {
@@ -165,7 +165,7 @@ li:hover{
     }
     100%
     {
-        background-image: url(back-g/img-9.jpg);
+        background-image: url(back-g/img-4.jpg);
     }
 }
 
@@ -219,11 +219,253 @@ li:hover{
 
 .imgs{
     width: 190px;
-    height: 150px;
+    height: 100%;
     object-fit: cover;
     border-top: 1px solid blue;
     border-bottom: 1px solid blue;
+    animation: mtslide infinite 20s;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+.imgsS{
+    width: 190px;
+    height: 100%;
+    object-fit: cover;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    animation: suzslide infinite 20s;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.imgsH{
+    width: 190px;
+    height: 100%;
+    object-fit: cover;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    animation: mthslide infinite 20s;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.imgsT{
+    width: 190px;
+    height: 100%;
+    object-fit: cover;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    animation: mtTslide infinite 20s;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.imgsN{
+    width: 190px;
+    height: 100%;
+    object-fit: cover;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    animation: mtNslide infinite 20s;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.imgsHn{
+    width: 190px;
+    height: 100%;
+    object-fit: cover;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    animation: mtHdslide infinite 20s;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@keyframes mtslide{
+    0%
+    {
+        background-image: url(mazd/mazd1.jpg);
+    }
+    20%
+    {
+        background-image: url(mazd/mazd1.jpg);
+    }
+    40%
+    {
+        background-image: url(suzi/suz2.jpg);
+    }
+    60%
+    {
+        background-image: url(suzi/suz2.jpg);
+    }
+    80%
+    {
+        background-image: url(mazd/mazd2.jpg);
+    }
+    100%
+    {
+        background-image: url(mazd/mazd2.jpg);
+    }
+}
+
+
+@keyframes suzslide{
+    0%
+    {
+        background-image: url(suzi/suz1.jpg);
+    }
+    20%
+    {
+        background-image: url(suzi/suz7.jpg);
+    }
+    40%
+    {
+        background-image: url(suzi/suz8.jpg);
+    }
+    60%
+    {
+        background-image: url(suzi/suz2.jpg);
+    }
+    80%
+    {
+        background-image: url(suzi/suz3.jpg);
+    }
+    100%
+    {
+        background-image: url(suzi/suz4.jpg);
+    }
+}
+@keyframes mthslide{
+    0%
+    {
+        background-image: url(hij/hij5.jpg);
+    }
+    20%
+    {
+        background-image: url(hij/hij3.jpg);
+    }
+    40%
+    {
+        background-image: url(hij/hij2.jpg);
+    }
+    60%
+    {
+        background-image: url(hij/hij5.jpg);
+    }
+    80%
+    {
+        background-image: url(hij/hij4.jpg);
+    }
+    100%
+    {
+        background-image: url(hij/hij001.jpg);
+    }
+}
+@keyframes mtTslide{
+    0%
+    {
+        background-image: url(toyo/bu1-1.jpg);
+    }
+    20%
+    {
+        background-image: url(toyo/bus17.jpg);
+    }
+    40%
+    {
+        background-image: url(toyo/bus19.jpg);
+    }
+    60%
+    {
+        background-image: url(toyo/bus10.jpg);
+    }
+    80%
+    {
+        background-image: url(toyo/bus24.jpg);
+    }
+    100%
+    {
+        background-image: url(toyo/bus-2.jpg);
+    }
+}
+@keyframes mtNslide{
+    0%
+    {
+        background-image: url(niss/nis4.jpg);
+    }
+    20%
+    {
+        background-image: url(niss/nis4.jpg);
+    }
+    40%
+    {
+        background-image: url(niss/nis22.jpg);
+    }
+    60%
+    {
+        background-image: url(niss/nis22.jpg);
+    }
+    80%
+    {
+        background-image: url(niss/nis23.jpg);
+    }
+    100%
+    {
+        background-image: url(niss/nis23.jpg);
+    }
+}
+@keyframes mtHdslide{
+    0%
+    {
+        background-image: url(hond/hond1.jpg);
+    }
+    20%
+    {
+        background-image: url(hond/hond1.jpg);
+    }
+    40%
+    {
+        background-image: url(hond/hond3.jpg);
+    }
+    60%
+    {
+        background-image: url(hond/hond4.jpg);
+    }
+    80%
+    {
+        background-image: url(hond/hond5.jpg);
+    }
+    100%
+    {
+        background-image: url(hond/hond6.jpg);
+    }
+}
+
+
+.adv-div{
+    background: rgba(13, 13, 46, 0.877);
+    width: 190px;
+    height: 220px;
+    border-radius: 10px;
+    margin: 5px;
+    border: 1px solid blue;
+    color: whitesmoke;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
 #checks{
     padding-left: 5px;
     font-size: 12px;
@@ -661,6 +903,73 @@ button[type="submit"] {
         border-bottom: 1px solid black;
         font-family: arial;
     }
+    .imgs{
+        width: 140px;
+        height: 130px;
+        object-fit: cover;
+        border-top: 1px solid blue;
+        border-bottom: 1px solid blue;
+        animation: mtslide infinite 20s;
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .imgsS{
+        width: 140px;
+        height: 130px;
+        object-fit: cover;
+        border-top: 1px solid blue;
+        border-bottom: 1px solid blue;
+        animation: suzslide infinite 20s;
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .imgsH{
+        width: 140px;
+        height: 130px;
+        object-fit: cover;
+        border-top: 1px solid blue;
+        border-bottom: 1px solid blue;
+        animation: mthslide infinite 20s;
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .imgsT{
+        width: 140px;
+        height: 130px;
+        object-fit: cover;
+        border-top: 1px solid blue;
+        border-bottom: 1px solid blue;
+        animation: mtTslide infinite 20s;
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .imgsN{
+        width: 140px;
+        height: 130px;
+        object-fit: cover;
+        border-top: 1px solid blue;
+        border-bottom: 1px solid blue;
+        animation: mtNslide infinite 20s;
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .imgsHn{
+        width: 140px;
+        height: 130px;
+        object-fit: cover;
+        border-top: 1px solid blue;
+        border-bottom: 1px solid blue;
+        animation: mtHdslide infinite 20s;
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
     .imgs{
         width: 140px;
         height: 130px;
